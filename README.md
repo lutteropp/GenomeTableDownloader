@@ -1,4 +1,4 @@
-# GenomeTableRetriever
+# GenomeTableDownloader
 R script that takes a list of species names, automatically downloads the FASTA genomes (which can be in various states of assembly), and returns a tab-separated mapping from each taxon name to its FASTA file as it is required for the hakmer-tool. The script has no problems with species synonyms or misclassified species, because it is using the biomartr package and the Catalogue of Life web interface.
 
 Example usage:
