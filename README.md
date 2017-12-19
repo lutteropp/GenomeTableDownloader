@@ -5,7 +5,7 @@ Example usage:
 - Create a text file called species_names containing the taxon names line by line.
 - Adapt the path to this text file in the R script.
 - Wait for the genomes to be downloaded and the table to be created. :-)
-- Decompress the downloaded genomes. On purpose, this is not done automatically.
+- Decompress the downloaded genomes. On purpose (for saving memory), this is not done automatically.
 
 An example output file genomes.table looks like this:
 
