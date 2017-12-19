@@ -1,5 +1,5 @@
 # GenomeTableDownloader
-R script that takes a list of species names, automatically downloads the FASTA genomes (which can be in various states of assembly), and returns a tab-separated mapping from each FASTA file to its taxon name as required by the hakmer-tool. The script has no problems with species synonyms or misclassified species.
+R script that takes a list of species names, automatically downloads the FASTA genomes (which can be in various states of assembly), and returns a tab-separated mapping from each FASTA file to its taxon name as required by the hakmer tool. The script has no problems with species synonyms or misclassified species.
 
 Example usage:
 - Create a text file called species_names containing the taxon names line by line.
